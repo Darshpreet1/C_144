@@ -37,7 +37,7 @@ function draw() {
     
         if(scorerightwrist > 0.2){
             circle(rightwristy,rightwristx,20);
-        }
+        
 
     if(rightwristy>0 && rightwristy<100){
         song.rate(0.5);
@@ -63,7 +63,7 @@ function draw() {
         song.rate(2.5);
         document.getElementById("speed").innerHTML = "Speed = 2.5x";
     }
-
+}
 }
 
 function modelLoded(){
